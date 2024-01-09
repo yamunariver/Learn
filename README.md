@@ -32,9 +32,9 @@ packet for yourself (don't forward it)
 
 
 Local: A route to the actual IP address configured on the interface (with a /32 netmask
+A local route is a route to the exact IP address configured on the interface
 
 Connected: A route to the network the interface is connected to. (with the actual netmask configured in the interface
-
 A connected route is a route to the network the interface is connected.
 
 
