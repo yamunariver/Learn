@@ -20,12 +20,16 @@ There are main routing methods(methods that routers use to learn route)
         routes on the router 
 
 A route tells the router to send a packet to destination X, you       
-should send the packet next-hop Y 
+should send the packet next hop Y 
 
 OR, if the destination is directly
 connected to the router, send the packet directly to the destination
 
-OR, if the destination is the router's own ip address, receive the 
+OR, if the destination is the router's own IP address, receive the 
 packet for yourself (don't forward it)
+
+## Connected and Local routes
+
+A connected route is a route to the network the interface is connected to.
 
 
