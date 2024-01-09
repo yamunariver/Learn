@@ -6,10 +6,10 @@ packets should take over a network to reach their destination
         Routers store routes to all of their known destinations in a
         routing table
 
-        when router receive packets, they look in the routing table 
+        when routers receive packets, they look in the routing table 
         to find the best route to forward that packet
 
-There are main routing methods(methods that routers use to learn route)
+There are main routing methods(methods that routers use to learn routes)
 
 
         Dynamic Routing: Routers use dynamic routing protocols(ie: OSPF)
@@ -30,6 +30,11 @@ packet for yourself (don't forward it)
 
 ## Connected and Local routes
 
-A connected route is a route to the network the interface is connected to.
+
+Local: A route to the actual IP address configured on the interface (with a /32 netmask
+
+A route to the network the interface is connected to. (with the actual netmask configured in the interface
+
+        A connected route is a route to the network the interface is connected.
 
 
